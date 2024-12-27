@@ -24,8 +24,8 @@ public class ProfessorController {
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<ProfessorWithSubjectsAndStudentsDTO> getProfessorbByIdWithSubjectsAndStudents(@PathVariable Long id){
-        return ResponseEntity.ok(service.getProfessorbByIdWithSubjectsAndStudents(id));
+    public ResponseEntity<ProfessorWithSubjectsAndStudentsDTO> getProfessorByIdWithSubjectsAndStudents(@PathVariable Long id){
+        return ResponseEntity.ok(service.getProfessorByIdWithSubjectsAndStudents(id));
     }
 
     @GetMapping

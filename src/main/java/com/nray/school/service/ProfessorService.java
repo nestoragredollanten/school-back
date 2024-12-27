@@ -7,7 +7,7 @@ import java.util.List;
 
 public interface ProfessorService {
 
-    ProfessorWithSubjectsAndStudentsDTO getProfessorbByIdWithSubjectsAndStudents(Long id);
+    ProfessorWithSubjectsAndStudentsDTO getProfessorByIdWithSubjectsAndStudents(Long id);
 
     List<ProfessorDTO> getProfessor();
 }
